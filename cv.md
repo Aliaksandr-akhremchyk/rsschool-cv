@@ -16,7 +16,7 @@ I am interested in everything that surrounds me. I like to communicate with new 
 - Development tools: __*VSCode*__
 - Operating system: __*Windows*__
 ## Experience
-I have four years of experience in managing a team of 10 people
+I have four years of experience in managing a team of 11 people
 ## Education:
 Educational institution "Academy of the Ministry of internal affairs of the Republic of Belarus", Minsk 2001-2006
 With a degree in Jurisprudence, qualification of lawyer
