@@ -21,4 +21,4 @@ I have four years of experience in managing a team of 10 people
 Educational institution "Academy of the Ministry of internal affairs of the Republic of Belarus", Minsk 2001-2006
 With a degree in Jurisprudence, qualification of lawyer
 ## Languages:
-**English** - Pre-intermediate 
+**English** - Pre-intermediate
