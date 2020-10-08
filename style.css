@@ -1,0 +1,17 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+header {
+  margin: 5px;
+}
+section {
+  margin: 5px;
+}
+hr {
+  margin: 5px;
+}
+.myFoto {
+  width: 150px;
+  margin: 5px;
+}
