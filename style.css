@@ -1,10 +1,12 @@
 body {
   max-width: 1024px;
   margin: 0 auto;
+  text-align: center;
 }
-header {
+/* header {
   margin: 5px;
-}
+  /* width: 48%; */
+/* } */
 section {
   margin: 5px;
 }
@@ -13,5 +15,39 @@ hr {
 }
 .myFoto {
   width: 150px;
-  margin: 5px;
+  margin: -10px 10px 10px 20px;
+  border-radius: 10px;
 }
+*[class^="row"] {
+  background: #eee;
+  display: -moz-grid-line;
+  float: left;
+  width: 43%;
+  margin: 5px;
+  height: 275px;
+  /* align-items: center; */
+  /* justify-content: center;  */
+  /* display: flex; */
+  /* padding: 10px; */
+  /* border: 1px solid #ccc; */
+}
+.parent {
+  max-width: 1020px;
+  /* height: 285px; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* background: red; */
+}
+.row2 {
+  margin: 5px;
+  padding: 10px;
+  height: 255px;
+}
+h1 {
+  margin-left: 5px;
+}
+.parent2 {
+  width: 45%;
+}
+
