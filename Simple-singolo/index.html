@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div   class="header">
-        <header >
+    <header>
+        <div class="header" >
             <h1 >singolo<span style="color: #f06c64;">*</span></h1> 
-            <nav>
+            <nav class="navmain">
                 <li><a href=#>HOME</a> </li>
                 <li><a href=#anchor1>SERVICES</a></li>
                 <li><a href=#anchor2>PORTFOLIO</a> </li>
@@ -20,9 +20,18 @@
             </nav>
            
                 
-        </header>
-
-    </div>
+        </div>
+        <div class="burger">
+            <nav >
+                <li><a href=#>HOME</a> </li>
+                <li><a href=#anchor1>SERVICES</a></li>
+                <li><a href=#anchor2>PORTFOLIO</a> </li>
+                <li><a href=#>ABOUT</a></li>
+                <li><a href=#>CONTACT</a></li>
+            </nav>
+        </div>
+        <img src="img\Burger-menu-icon.png" alt="menu-icon" width='25px' height='20px'>
+    </header>
    
     <div class="slider-bg">
         
@@ -40,6 +49,9 @@
         <div class="phone-horizomtal">
             <img src="img\phone-horizontal.png" alt="phone-vertical" width='100%' height='100%'>
         </div>
+        <img id="arrow-left" src="img\arrow-left.png" alt="arrow" width='16px' height='27px'>
+        <img id="arrow-right" src="img\arrow-right.png" alt="arrow" width='16px' height='27px'>
+
         <div id="anchor1"></div>
     </div>
     <div class="our-service">
@@ -109,9 +121,17 @@
 
     </div>
     <footer>
-dfg
+        <p class="p4">© Copyright 2013</p>
+        <ul class="media">
+            <li><img src="img\ico-facebook.png" alt="portfolio"></li>
+            <li><img src="img\ico-google-plus.png" alt="portfolio"></li>
+            <li><img src="img\ico-twitter.png" alt="portfolio"></li>
+            <li><img src="img\ico-linkedin.png" alt="portfolio"></li>
+        </ul>
+
+
     </footer>
-<!-- 
+
     <div class="fon">
         <div class="fon-header"></div>
         <div class="fon-slider"></div>
@@ -119,7 +139,8 @@ dfg
         <div class="fon-portfolio"></div>
         <div class="fon-footer"></div>
 
-    </div> -->
+    </div>
+
    
 </body>
 </html>
