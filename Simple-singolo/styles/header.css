@@ -14,7 +14,7 @@ h1 {
 }
 .navmain {
   /* position: absolute; */
-  margin: 38px 33px;
+  margin: 40px 40px;
 
   font-size: 12px;
 }
@@ -33,7 +33,7 @@ li a:hover {
   font-size: 18px;
   margin: 0px;
   top: -3px;
-  right: 13px;
+  right: 15px;
   position: relative;
 }
 .navmain a {
@@ -71,7 +71,7 @@ header {
 header img {
   position: fixed;
   left: 30px;
-  top: 36px;
+  top: 28px;
   z-index: 2;
   display: none;
   transition: 1s;
@@ -92,7 +92,7 @@ header img:hover {
 .menu-icon {
   position: fixed;
   left: 30px;
-  top: -35px;
+  top: -45px;
   z-index: 2;
 }
 .rotate {

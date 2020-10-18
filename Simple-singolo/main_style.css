@@ -3,7 +3,7 @@
 @import url("styles/our-service.css");
 @import url("styles/portfolio.css");
 @import url("styles/footer.css");
-@import url("styles/fon.css");
+/* @import url("styles/fon.css"); */
 
 * {
   margin: 0;
@@ -41,14 +41,14 @@ html {
   height: 100%;
   background: #2d303a;
   opacity: 0.6;
-  /* top: 0px; */
+  /* display: none; */
   z-index: 1;
 }
 .hiden {
   display: none;
 }
 .burger nav {
-  margin-top: 271px;
+  margin-top: 230px;
   /* margin-left: 32px; */
 }
 .burger li a {
@@ -60,7 +60,7 @@ html {
   font-size: 24px;
   line-height: 29px;
   letter-spacing: -0.035em;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 .burger li {
   list-style-type: none;
@@ -113,12 +113,13 @@ html {
   }
   #arrow-right {
     position: absolute;
+    right: 3.82%;
   }
   #arrow-left {
     position: absolute;
+    left: 3.82%;
   }
 }
-
 @media screen and (max-width: 767px) {
   .grid1 {
     grid-template-areas:
@@ -177,6 +178,13 @@ html {
   .move {
     transform: translate(278px, 0);
     transition: 1s;
+  }
+  .header,
+  .a1,
+  #anchor2,
+  #anchor1,
+  header {
+    height: 71px;
   }
 }
 @media screen and (max-width: 375px) {
