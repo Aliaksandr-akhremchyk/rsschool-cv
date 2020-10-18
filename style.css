@@ -1,0 +1,48 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 130%;
+}
+section {
+  margin: 5px;
+}
+hr {
+  margin: 5px;
+}
+.myFoto {
+  width: 150px;
+  margin: -10px 10px 10px 20px;
+  border-radius: 10px;
+}
+.row {
+  background: #eee;
+  width: 43%;
+  margin: 5px;
+}
+.parent {
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-left: 5px;
+}
+.ul {
+  text-align: left;
+  margin-left: 20px;
+}
+.parent2 {
+  width: 45%;
+  margin: 5px;
+}
+@media screen and (max-width: 620px) {
+  .row,
+  .parent2 {
+    width: 95%;
+  }
+  .parent {
+    flex-direction: column;
+  }
+}
