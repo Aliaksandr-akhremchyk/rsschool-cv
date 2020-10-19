@@ -21,6 +21,13 @@ h1 {
 li a:hover {
   color: #f06c64;
   cursor: pointer;
+  text-shadow: 0 0px 15px white;
+  /* border: 1px solid white; */
+  /* border-radius: 5px; */
+  /* background-color: rgba(240, 255, 240, 0.3); */
+  /* font-weight: bold; */
+  /* padding: 3px; */
+  /* margin: 0px -4px 0px -4px; */
 }
 .navmain li {
   display: inline;
@@ -87,6 +94,7 @@ header img {
 }
 header img:hover {
   cursor: pointer;
+  box-shadow: 0 0px 15px honeydew;
   /* transform: rotate(90deg); */
 }
 .menu-icon {

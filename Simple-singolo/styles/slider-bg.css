@@ -1,4 +1,4 @@
-.a1{
+.a1 {
   position: relative;
   height: 95px;
 }
@@ -59,4 +59,6 @@
 }
 img[id^="arrow"]:hover {
   cursor: pointer;
+  box-shadow: 0 0px 25px honeydew;
+  background-color: rgba(240, 255, 240, 0.25);
 }

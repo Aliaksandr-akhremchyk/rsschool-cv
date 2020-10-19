@@ -29,6 +29,7 @@ footer {
 }
 .media li img:hover {
   cursor: pointer;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 50%;
+  box-shadow: 0 0px 15px white;
 }

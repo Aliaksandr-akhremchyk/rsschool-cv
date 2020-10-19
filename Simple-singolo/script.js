@@ -17,7 +17,8 @@ TAB.querySelectorAll('li').forEach(el => {
 el.addEventListener('click', (event) =>{
     TAB.querySelectorAll('li').forEach(el => el.classList.remove('active'));
     event.target.classList.add('active');
-    MIXED.querySelectorAll('img').forEach(el => el.classList.remove('border-img'));
+   
+    // MIXED.querySelectorAll('img').forEach(el => el.classList.remove('border-img'));
     MIXED.querySelectorAll('img').forEach(el => el.remove());
     // function mix(arr1){
         for (var i = arr1.length - 1; i > 0; i--) {
@@ -100,7 +101,7 @@ window.addEventListener(`resize`, event => {
 document.addEventListener('scroll', onScrol);
 function onScrol() {
     const POS = window.scrollY;
-    const DIVS = document.querySelectorAll('body>div');
+    const DIVS = document.querySelectorAll('main>div');
 
     DIVS.forEach((el) => {
         if(el.offsetTop - 95 <= POS && (el.offsetTop - 95 + el.offsetHeight) > POS){
