@@ -1,8 +1,6 @@
 footer {
   position: relative;
   height: 36px;
-  /* margin: 0 auto; */
-  /* max-width: 1020px; */
   background: #2d303a;
   display: flex;
   padding: 20px calc((100% - 1020px) / 2);
@@ -17,7 +15,6 @@ footer {
   color: #666d89;
   margin-top: 10px;
   margin-left: 40px;
-  /* width: 100px; */
 }
 .media {
   margin-top: 3px;
@@ -29,7 +26,6 @@ footer {
 }
 .media li img:hover {
   cursor: pointer;
-  /* background-color: white; */
   border-radius: 50%;
   box-shadow: 0 0px 15px white;
 }
