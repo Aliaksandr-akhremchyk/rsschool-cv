@@ -26,7 +26,7 @@ body {
 }
 
 @media screen and (max-width: 1019px) {
-  .grid1 {
+  .grid-service {
     grid-template-areas:
       "a a"
       "a a"
@@ -88,7 +88,7 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
-  .grid1 {
+  .grid-service {
     grid-template-areas:
       "a"
       "a"
@@ -115,13 +115,11 @@ body {
   .tab {
     margin-left: 30px;
   }
-  .grid1 {
+  .grid-service {
     margin: 0px 20px;
   }
-  .navmain,
+
   .p4 {
-    margin: auto 40px;
-    font-size: 12px;
     display: none;
   }
   footer,

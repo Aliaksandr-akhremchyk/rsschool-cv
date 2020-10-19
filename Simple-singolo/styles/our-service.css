@@ -15,7 +15,7 @@ h2 {
   margin: 0px 40px 0px 40px;
   padding-top: 59px;
 }
-.grid1 {
+.grid-service {
   display: grid;
   grid-template-areas:
     "a a a"

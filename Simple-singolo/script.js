@@ -3,6 +3,11 @@ MENU.addEventListener('click', (event) =>{
     MENU.querySelectorAll('a').forEach(el => el.classList.remove('active'));
 
     event.target.classList.add('active');
+    document.getElementById('overlay-tint').classList.add('hiden');
+    document.getElementById('burger-menu').classList.remove('move');
+    document.getElementById('menu-icon').classList.remove('doun');
+    document.getElementById('buttun').classList.remove('rotate');
+    document.getElementById('h1').classList.remove('hiden');
 });
 
 const TAB = document.getElementById('tab');
@@ -49,18 +54,6 @@ el.addEventListener('click', (event) => {
     });
 });
 
-const MENUB = document.getElementById('burger');
-MENUB.addEventListener('click', (event) =>{
-    MENUB.querySelectorAll('a').forEach(el => el.classList.remove('active'));
-    event.target.classList.add('active');
-    document.getElementById('overlay-tint').classList.add('hiden');
-    document.getElementById('burger-menu').classList.remove('move');
-    document.getElementById('menu-icon').classList.remove('doun');
-    document.getElementById('buttun').classList.remove('rotate');
-    document.getElementById('h1').classList.remove('hiden');
-    
-});
-
 const MENUC = document.getElementById('buttun');
 MENUC.addEventListener('click', () =>{
     if(MENUC.getAttribute('class') == 'rotate') {
@@ -98,16 +91,6 @@ function onScrol() {
     DIVS.forEach((el) => {
         if(el.offsetTop - 95 <= POS && (el.offsetTop - 95 + el.offsetHeight) > POS){
             MENU.querySelectorAll('a').forEach((a) => {
-                a.classList.remove('active');
-                if (el.getAttribute('class').slice(0, 4) === a.getAttribute('class').slice(0, 4)) {
-                    a.classList.add('active');
-                }
-            })
-        }
-    });
-    DIVS.forEach((el) => {
-        if(el.offsetTop - 95 <= POS && (el.offsetTop - 95 + el.offsetHeight) > POS){
-            MENUB.querySelectorAll('a').forEach((a) => {
                 a.classList.remove('active');
                 if (el.getAttribute('class').slice(0, 4) === a.getAttribute('class').slice(0, 4)) {
                     a.classList.add('active');

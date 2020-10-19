@@ -1,14 +1,35 @@
-.burger {
-  position: fixed;
-  width: 279px;
-  height: 100%;
-  background-color: #2d303a;
-  z-index: 1;
-  top: 0px;
-  left: -279px;
-  margin: 0;
-  transition: 1s;
+@media screen and (max-width: 767px) {
+  .burger {
+    position: fixed;
+    width: 279px;
+    height: 100%;
+    background-color: #2d303a;
+    z-index: 1;
+    top: 0px;
+    left: -279px;
+    margin: 0;
+    transition: 1s;
+  }
+  .navmain {
+    margin-top: 230px;
+  }
+  .navmain a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .navmain li:nth-child(n + 2):before {
+    display: none;
+  }
 }
+
 .overlay-tint {
   position: fixed;
   width: 100%;
@@ -19,24 +40,4 @@
 }
 .hiden {
   display: none;
-}
-.burger nav {
-  margin-top: 230px;
-}
-.burger li a {
-  text-decoration: none;
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: -0.035em;
-  margin-left: 80px;
-}
-.burger li {
-  list-style-type: none;
-  margin: 20px 0px;
-}
-.burger li a:hover {
-  color: #ea676b;
 }
