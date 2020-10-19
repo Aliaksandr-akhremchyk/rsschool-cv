@@ -5,7 +5,6 @@
   padding: 0px calc((100% - 1020px) / 2);
 }
 .tab {
-  font-family: "Lato", sans-serif;
   margin-left: 40px;
   margin-top: -38px;
 }
@@ -29,7 +28,7 @@
   cursor: pointer;
   box-shadow: 0 0px 15px honeydew;
 }
-.grid2 {
+.grid_portfolio {
   display: grid;
   grid-template-areas:
     "a a a a"
@@ -38,10 +37,10 @@
   margin: 21px 40px 68px 40px;
   grid-gap: 20px;
 }
-.grid2 img {
+.grid_portfolio img {
   width: 100%;
 }
-.grid2 img:nth-child(1n + 13) {
+.grid_portfolio img:nth-child(1n + 13) {
   display: none;
 }
 ul li.active {
@@ -53,7 +52,7 @@ ul li.active {
   border-radius: 15px;
   margin: -5px;
 }
-.grid2 img:hover {
+.grid_portfolio img:hover {
   box-shadow: 0 0px 28px honeydew;
   cursor: pointer;
 }

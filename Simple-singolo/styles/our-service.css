@@ -13,7 +13,6 @@ h2 {
 .service {
   position: relative;
   margin: 0px 40px 0px 40px;
-  font-family: "Lato", sans-serif;
   padding-top: 59px;
 }
 .grid1 {
@@ -26,14 +25,12 @@ h2 {
   justify-items: start;
 }
 .service-detales {
-  font-family: "Lato", sans-serif;
   display: grid;
   grid-template-areas:
     "logo h3"
     "logo p3";
 }
 .service-detales img {
-
   margin-bottom: 30px;
   margin-left: 10px;
   grid-area: logo;

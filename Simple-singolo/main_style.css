@@ -12,6 +12,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "Lato", verdana, sans-serif;
+}
 
 #anchor2,
 #anchor1 {
@@ -29,7 +32,7 @@ html {
       "a a"
       "a a";
   }
-  .grid2 {
+  .grid_portfolio {
     grid-template-areas:
       "a a a"
       "a a a"
@@ -92,7 +95,7 @@ html {
       "a"
       "a";
   }
-  .grid2 {
+  .grid_portfolio {
     position: relative;
     grid-template-areas:
       "a a"
@@ -102,7 +105,7 @@ html {
     margin: 30px;
     grid-gap: 10px;
   }
-  .grid2 img:nth-child(1n + 9) {
+  .grid_portfolio img:nth-child(1n + 9) {
     display: none;
   }
   .service {
